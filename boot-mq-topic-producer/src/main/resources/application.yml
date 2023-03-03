@@ -1,0 +1,13 @@
+server:
+  port: 5555
+
+spring:
+  activemq:
+    broker-url: tcp://150.230.45.169:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true   #false = queue true = topic
+
+
+mytopic: boot-activemq-topic
